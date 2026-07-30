@@ -1,0 +1,25 @@
+{
+  "name": "Nico · 个人工作台",
+  "short_name": "Nico",
+  "description": "Nico 个人工作台 - 每日计划、阅读记录、运动健康、学习汇报、周复盘",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#E0F2FE",
+  "theme_color": "#BFDBFE",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

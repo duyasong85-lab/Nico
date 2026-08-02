@@ -793,11 +793,12 @@ $('#overlay').addEventListener('click',()=>{ $('#sidebar').classList.remove('ope
 
 /* ===================== 每日计划 ===================== */
 const PRESET_TASKS = [
-  { id:'p1', name:'英语精听', done:false, preset:true },
-  { id:'p2', name:'口语练习', done:false, preset:true },
-  { id:'p3', name:'单词记背', done:false, preset:true },
-  { id:'p4', name:'每日阅读', done:false, preset:true },
-  { id:'p5', name:'每日运动', done:false, preset:true }
+  { id:'p1', name:'英语精听🎧', done:false, preset:true },
+  { id:'p2', name:'口语练习🗣', done:false, preset:true },
+  { id:'p3', name:'外刊阅读📖', done:false, preset:true },
+  { id:'p4', name:'英语词汇🗒', done:false, preset:true },
+  { id:'p5', name:'教资', done:false, preset:true },
+  { id:'p6', name:'运动', done:false, preset:true }
 ];
 let planDateOffset = 0; // 0=今天, -1=昨天...
 function getPlanDate(){ const d=new Date(Date.now()+planDateOffset*86400000); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`; }
